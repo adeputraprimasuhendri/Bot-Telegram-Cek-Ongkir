@@ -2,8 +2,6 @@
 
 debug_backtrace() || die ("<h2> Akses Ditolak! </ h2> Anda tidak dapat mengakses file ini secara langsung.");
 
-session_start();
-
 define("DB", [
     "DB_HOST_NAME" => "localhost",
     "DB_USER_NAME" => "root",
@@ -28,3 +26,4 @@ spl_autoload_register(function($class) {
     require_once 'classes/class.' . $class . '.php';
 });
 
+require_once('functions/all_function.php');
