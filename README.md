@@ -7,4 +7,4 @@ Bot telegram ini memanfaatkan resource dari RajaOngkir, fungsinya untuk cek ongk
 - import file dump.sql ke dalam database
 - edit file config.php. isikan sesuai informasi database, Api Key RajaOngkir, dan Bot Token yang Anda punya
 - buka alamat berikut untuk mengeset hook bot token
-https://api.telegram.org/bottoken:kamu/setwebhook?url=URL_WEB_HOOK
+https://api.telegram.org/botTOKEN:ANDA/setwebhook?url=URL_WEB_HOOK
