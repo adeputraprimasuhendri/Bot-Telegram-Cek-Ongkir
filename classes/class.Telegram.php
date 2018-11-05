@@ -58,7 +58,7 @@ class Telegram extends Conn
         parent::__construct();
     }
 
-    public function cekuser()
+    public function chek_user()
     {
         $query = "SELECT * FROM user_bot where user_id = '".$this->id."'";
         $res = $this->conn->query($query);
